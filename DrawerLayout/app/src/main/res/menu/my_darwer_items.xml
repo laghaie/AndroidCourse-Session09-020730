@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/email_24"
+        android:title="Inbox">
+        <menu>
+            <item
+                android:id="@+id/sent"
+                android:title="Sent Items" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/calender"
+        android:icon="@drawable/calendar_today_24"
+        android:title="Calender" />
+
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_24"
+        android:title="Settings" />
+</menu>
